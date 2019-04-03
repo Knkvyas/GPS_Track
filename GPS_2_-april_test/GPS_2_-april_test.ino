@@ -8,10 +8,6 @@ String IP="";
 String webpage="";
 int i=0,k=0;
 int  gps_status=0;
-String name="<p>1. Name: Your Name </p>";   //22
-String dob="<p>2. DOB: 12 feb 1993</p>";     //21
-String number="<p>4. Vehicle No.: RJ05 XY 4201</p>";//29
-String cordinat="<p>Coordinates:</p>";          //17
 String latitude=""; 
 String logitude="";                       
 
@@ -48,10 +44,6 @@ void loop()
   gps.end();
   Serial1.begin(9600);
   Serial1.flush();
-   /* lcd.clear();
-      lcd.print("Sending Data to ");
-      lcd.setCursor(0,1);
-      lcd.print("    Web Page     ");*/
       Serial.println("Start Printing");
       show_coordinate();
       Serial.println("Done Printing");
