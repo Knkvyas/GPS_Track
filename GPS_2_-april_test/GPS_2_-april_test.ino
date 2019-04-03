@@ -33,7 +33,6 @@ void loop()
   while(k<1000)
   {
     k++;
-
    while(Serial1.available())
    {
     if(Serial1.find("0,CONNECT"))
