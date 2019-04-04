@@ -6,7 +6,6 @@ int i=0,k=0;
 int  gps_status=0;
 String latitude=""; 
 String logitude="";                       
-
 String gpsString="";
 char *test="$GPGGA";
 
